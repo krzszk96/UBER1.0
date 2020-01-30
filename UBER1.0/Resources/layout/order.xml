@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020">
+     <TextView
+        android:text="Order Your Uber"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+
+    <GridLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout1" >
+        <TextView
+            android:text="Type Your location:"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_conten"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView2" />
+        <EditText
+            android:inputType="textPostalAddress"
+            android:textColor="#fff"
+            android:backgroundTint="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout2" >
+        <TextView
+            android:text="Uber will arrive in:"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3" />
+        <TextView
+            android:text="10"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/uberTime" />
+    </GridLayout>
+
+    <GridLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout3" >
+        <TextView
+            android:text="Account money:"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15" />
+        <TextView
+            android:text="0"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/AccStatus" />
+    </GridLayout>
+    
+    <GridLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout4" >
+        <TextView
+            android:text="Cost:"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5" />
+        <TextView
+            android:text="0"
+            android:textSize="20dp"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/uberCost" />
+    </GridLayout>
+    
+    
+
+     <Button
+        android:text="Order Uber"
+        android:textSize="20dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOrderUber" />
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+﻿ 
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <TextView
+        android:text="Account details:"
+        android:textSize="30dp"
+        android:textColor="#fff"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView1" />
+
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout1">
+        <TextView
+            android:text="Your username:"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textUser" />
+        <TextView
+            android:text=" username"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/UserName" />
+        
+
+    </GridLayout>
+
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout2">
+        <TextView
+            android:text="Your e-mail:"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textEmail" />
+        <TextView
+            android:text="e-mail"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/EmailValue" />
+
+    </GridLayout>
+
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout3">
+        <TextView
+            android:text="Account status:"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textAccount" />
+        <TextView
+            android:text="0"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/FinalAccValue" />
+    </GridLayout>
+
+    <GridLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout4">
+        <TextView
+            android:text="Top up account:"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textCharge" />
+        
+        <EditText
+            android:inputType="number"
+            android:textColor="#fff"
+            android:backgroundTint="#fff"
+            android:layout_marginLeft="10dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/HowMuchCharge" />
+
+    </GridLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linearLayout1" >
+        <Button
+            android:text="submit Changes"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textColor="#fff"            
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/button1" />
+    </LinearLayout>
+        
+
+    
+
+    
+    
+    
+</LinearLayout>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#202020"
+        android:id="@+id/linearLayout1">
+        <TextView
+            android:text="WELCOME \nTO YOUR UBER!"
+            android:layout_marginTop="20dp"
+            android:textColor="#fff"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView1" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linearLayout2">
+            <Button
+                android:text="Account"
+                android:layout_marginTop="60dp"
+                android:textSize="20dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/btnAcc"
+                android:onClick="btnA_Click" />
+            <Button
+                android:text="Order Uber"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/btnOrd" />
+            <Button
+                android:text="Settings"
+                android:layout_marginTop="20dp"
+                android:textSize="20dp"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:background="@color/colorPrimaryDark"
+                android:id="@+id/btnSet" />
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+    
+</RelativeLayout>
